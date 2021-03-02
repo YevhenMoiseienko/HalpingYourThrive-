@@ -1,0 +1,18 @@
+@import "variables";
+.description {
+  flex-wrap: wrap;
+  padding: 22px 0 40px 0;
+  &__block {
+    width: 33.333%;
+  }
+  &__box {
+    padding: 55px 77px 0 105px;
+  }
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__text {
+    line-height: 1.56;
+    color: $lightGray;
+  }
+}

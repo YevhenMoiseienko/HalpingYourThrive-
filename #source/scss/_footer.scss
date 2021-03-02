@@ -1,0 +1,9 @@
+@import "variables";
+
+.footer {
+  background-color: $blue;
+  & h6 {
+    color: $white;
+    padding: 32px 0 32px 180px;
+  }
+}

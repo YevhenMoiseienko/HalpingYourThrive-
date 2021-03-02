@@ -1,0 +1,27 @@
+@import "variables";
+
+.smile {
+  color: $white;
+  &__info {
+    background-color: $dark;
+    padding: 103px 200px 0 180px;
+  }
+  h5 {
+    margin-bottom: 230px;
+  }
+  p {
+    font-size: 64px;
+    line-height: 1.47;
+    margin-bottom: 75px;
+  }
+  h2 {
+    line-height: 1.47;
+    margin-bottom: 70px;
+  }
+  a {
+    margin-left: -15px;
+    &:active {
+      color: $corale;
+    }
+  }
+}

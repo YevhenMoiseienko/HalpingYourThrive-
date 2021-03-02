@@ -1,0 +1,54 @@
+@import "variables";
+
+.contacts {
+  &__info {
+    padding: 100px 0 0 70px;
+  }
+  &__some {
+    width: 25%;
+    & h6 {
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    & p {
+      font-size: $fz14;
+      color: $lightGray;
+      line-height: 1.64;
+    }
+  }
+  &__enfold {
+    margin-left: 50px;
+    width: 26%;
+    & h6 {
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    & p {
+      font-size: $fz14;
+      color: $lightGray;
+      line-height: 1.64;
+    }
+    & a {
+      color: $lightBlue;
+      &:hover {
+        color: $blue;
+      }
+      &:active {
+        color: $corale;
+      }
+    }
+  }
+  &__office {
+    width: 13%;
+    margin-left: 50px;
+    & h6 {
+      text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    & p {
+      font-size: $fz14;
+      color: $lightGray;
+      line-height: 1.64;
+    }
+  }
+}

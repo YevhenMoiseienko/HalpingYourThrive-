@@ -1,0 +1,27 @@
+@import "variables";
+.button {
+  padding: 10px 15px;
+  background: none;
+  &.button__white {
+    color: $white;
+  }
+  &.button__orange {
+    color: $orange;
+  }
+  &.button__blue {
+    color: $blue;
+  }
+  &.bg__white {
+    background: $white;
+  }
+  &.bg__blue {
+    background: $blue;
+  }
+  &.bg__orange {
+    background: $orange;
+  }
+  &.radius {
+    border-radius: 50px;
+  }
+
+}

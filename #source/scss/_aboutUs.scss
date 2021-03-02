@@ -1,0 +1,65 @@
+@import "variables";
+.about-us {
+  padding-bottom: 120px;
+  &__top {
+    padding: 156px 0 76px 106px;
+  }
+  &__title {
+    line-height: 1.44;
+    color: $dark;
+    text-transform: uppercase;
+    width: 16%;
+  }
+  &__text {
+    line-height: 1.42;
+    color: $dark;
+    margin-left: 225px;
+    width: 41%;
+  }
+  &__proposition {
+    line-height: 1.19;
+    text-align: center;
+    color: rgba(34, 53, 111, 0.5);
+    margin-bottom: 25px;
+  }
+  &__line {
+    color: $white;
+    height: 360px;
+  }
+  &__block1 {
+    width: 25%;
+    background: $pink;
+    &__box {
+      max-width: 255px;
+      &__point {}
+      &__text {}
+    }
+  }
+  &__block2 {
+    width: 25%;
+    background: $greenLight;
+    &__box {
+      max-width: 255px;
+      &__point {}
+      &__text {}
+    }
+  }
+  &__block3 {
+    width: 25%;
+    background: $blue;
+    &__box {
+      max-width: 255px;
+      &__point {}
+      &__text {}
+    }
+  }
+  &__block4 {
+    width: 25%;
+    background: $lightBlue;
+    &__box {
+      max-width: 255px;
+      &__point {}
+      &__text {}
+    }
+  }
+}

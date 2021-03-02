@@ -1,0 +1,17 @@
+@import "variables";
+
+.thrive{
+  &__left {
+    background: $blue;
+    padding: 151px 181px 0 178px;
+    & h2 {
+      color: $white;
+      line-height: 0.75;
+      margin-bottom: 80px;
+    }
+    & p {
+      color: $white;
+      line-height: 1.46;
+    }
+  }
+}

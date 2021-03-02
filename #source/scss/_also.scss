@@ -1,0 +1,22 @@
+@import "variables";
+.also {
+  &__picture{}
+  &__info {
+    padding: 103px 145px 0 106px;
+    & h5 {
+      margin-bottom: 225px;
+    }
+    & h2 {
+      line-height: 1.47;
+      margin-bottom: 152px;
+      & a {
+        color: $blue;
+      }
+      }
+    & a {
+      &:active {
+        color: $corale;
+      }
+    }
+  }
+}
