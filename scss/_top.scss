@@ -18,36 +18,7 @@
     background-color: $lightBrown;
   }
 
-  &__header {
-    padding-top: 30px;
-    justify-content: space-between;
-    z-index: 4;
 
-    &__mark {
-      font-size: $fz24;
-      color: $blue;
-      line-height: 1.125;
-    }
-
-    &__links {
-      justify-content: flex-end;
-      align-items: flex-end;
-      font-size: $fz14;
-      line-height: 1.14;
-    }
-
-    &__link {
-      padding-right: 30px;
-
-      a {
-        color: $dark;
-
-        &:hover {
-          color: $purple;
-        }
-      }
-    }
-  }
   &__introduction {
     max-width: 485px;
     padding: 187px 0 85px;
