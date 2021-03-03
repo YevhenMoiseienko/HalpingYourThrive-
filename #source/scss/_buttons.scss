@@ -2,6 +2,10 @@
 .button {
   padding: 10px 15px;
   background: none;
+  transition: background 0.3s;
+  &:hover {
+    background: $lightGray;
+  }
   &.button__white {
     color: $white;
   }
@@ -16,9 +20,15 @@
   }
   &.bg__blue {
     background: $blue;
+    &:hover {
+      background: lighten($blue,20%);
+    }
   }
   &.bg__orange {
     background: $orange;
+    &:hover {
+      background: lighten($orange,20%);
+    }
   }
   &.radius {
     border-radius: 50px;
