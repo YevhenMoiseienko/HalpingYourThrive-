@@ -1,8 +1,8 @@
 @import "variables";
 
 .thrive{
+  background-color: $blue;
   &__left {
-    background: $blue;
     padding: 151px 181px 0 178px;
     & h2 {
       color: $white;
@@ -12,6 +12,7 @@
     & p {
       color: $white;
       line-height: 1.46;
+      padding-bottom: 20px;
     }
   }
 }

@@ -269,8 +269,10 @@ header nav a:hover {
   background-color: #F9B640;
 }
 
+.thrive {
+  background-color: #62D0DF;
+}
 .thrive__left {
-  background: #62D0DF;
   padding: 151px 181px 0 178px;
 }
 .thrive__left h2 {
@@ -281,6 +283,7 @@ header nav a:hover {
 .thrive__left p {
   color: #ffffff;
   line-height: 1.46;
+  padding-bottom: 20px;
 }
 
 .about-us {
