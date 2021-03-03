@@ -176,7 +176,7 @@ a {
   border-radius: 50px;
 }
 
-.conteiner {
+.container {
   max-width: 1440px;
   background: #ffffff;
 }
@@ -325,38 +325,31 @@ a {
   flex-wrap: wrap;
   color: #ffffff;
 }
-.offers__block1 {
+.offers__block {
+  width: calc(100% / 3);
+  min-height: 480px;
+}
+.offers__block.dark {
   background: #22356F;
-  width: 33.333%;
-  height: 480px;
+}
+.offers__block.lightBlue {
+  background: #0052C1;
+}
+.offers__block.picture {
+  background: url("../img/offers/strawbery.png") center no-repeat;
+  background-size: cover;
+}
+.offers__block.blue {
+  background: #62D0DF;
+}
+.offers__block.coral {
+  background: #DEE1FF;
+}
+.offers__block.purple {
+  background: #8F00FF;
 }
 .offers__box {
   max-width: 340px;
-}
-.offers__block2 {
-  background: #0052C1;
-  width: 33.333%;
-  height: 480px;
-}
-.offers__block3 {
-  background: url("../img/offers/strawbery.png") 0 0 no-repeat;
-  width: 33.333%;
-  height: 480px;
-}
-.offers__block4 {
-  background: #62D0DF;
-  width: 33.333%;
-  height: 480px;
-}
-.offers__block5 {
-  background: #DEE1FF;
-  width: 33.333%;
-  height: 480px;
-}
-.offers__block6 {
-  background: #8F00FF;
-  width: 33.333%;
-  height: 480px;
 }
 
 .description {

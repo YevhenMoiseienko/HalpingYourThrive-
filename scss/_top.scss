@@ -15,7 +15,7 @@
     max-width: 1117px;
     width: 100%;
     padding: 0 247px 0 179px;
-    background-color: #F4F9E2;
+    background-color: $lightBrown;
   }
 
   &__header {
@@ -43,7 +43,7 @@
         color: $dark;
 
         &:hover {
-          color: $purpule;
+          color: $purple;
         }
       }
     }
