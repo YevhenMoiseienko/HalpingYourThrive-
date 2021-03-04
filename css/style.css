@@ -391,7 +391,7 @@ header nav a:hover {
 }
 .also__info h2 {
   line-height: 1.47;
-  margin-bottom: 152px;
+  margin-bottom: 170px;
 }
 .also__info h2 a {
   color: #62D0DF;
@@ -402,10 +402,10 @@ header nav a:hover {
 
 .smile {
   color: #ffffff;
+  background-color: #22356F;
 }
 .smile__info {
-  background-color: #22356F;
-  padding: 103px 200px 0 180px;
+  padding: 103px 200px 20px 180px;
 }
 .smile h5 {
   margin-bottom: 230px;
