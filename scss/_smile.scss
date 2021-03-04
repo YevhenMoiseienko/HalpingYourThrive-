@@ -2,9 +2,9 @@
 
 .smile {
   color: $white;
+  background-color: $dark;
   &__info {
-    background-color: $dark;
-    padding: 103px 200px 0 180px;
+    padding: 103px 200px 20px 180px;
   }
   h5 {
     margin-bottom: 230px;
@@ -21,7 +21,7 @@
   a {
     margin-left: -15px;
     &:active {
-      color: $corale;
+      color: $coral;
     }
   }
 }

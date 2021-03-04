@@ -1,0 +1,32 @@
+@import "variables";
+$offersColumn: 3;
+.offers {
+  flex-wrap: wrap;
+  color: $white;
+  &__block {
+    width: calc(100% / #{$offersColumn});
+    min-height: 480px;
+    &.dark {
+      background: $dark;
+    }
+    &.lightBlue {
+      background: $lightBlue;
+    }
+    &.picture {
+      background: url("../img/offers/strawbery.png") center no-repeat;
+      background-size: cover;
+    }
+    &.blue{
+      background: $blue;
+    }
+    &.coral{
+      background: $coral;
+    }
+    &.purple{
+      background: $purple;
+    }
+  }
+  &__box {
+    max-width: 340px;
+  }
+}

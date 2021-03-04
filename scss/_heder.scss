@@ -1,0 +1,42 @@
+@import "variables";
+
+header {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  position: relative;
+  max-width: 1140px;
+  margin: 0 auto -87px;
+
+  .logo a {
+    font-size: $fz24;
+    color: $blue;
+    line-height: 1.125;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    li {
+      padding-right: 30px;
+      &:first-child a {
+        border-bottom: 1px solid $dark;
+      }
+    }
+
+    a {
+      font-size: $fz14;
+      line-height: 1.14;
+      color: $dark;
+      &:hover {
+        color: $purple;
+      }
+    }
+  }
+}
